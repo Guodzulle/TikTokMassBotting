@@ -1,5 +1,5 @@
 import ssl, os, requests, time
-from threading import active_count, Thread
+https://vm.tiktok.com/ZMLpjfFFB/from threading import active_count, Thread
 from pystyle import Colorate, Colors, Write
 from random import randint, choice
 from urllib3.exceptions import InsecureRequestWarning
@@ -19,8 +19,8 @@ class BlockCookies(cookiejar.CookiePolicy):
 requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
 ssl._create_default_https_context = ssl._create_unverified_context
 r = requests.Session()
-ThreadCount = 0
-SentTotalSentShares = 0
+ThreadCount = 10000
+SentTotalSentShares = 1000
 TotalFailedReq = 0
 DebugMode = False
 
